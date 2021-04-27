@@ -9,7 +9,7 @@ import (
 )
 
 //go:embed nextjs/dist
-//go:embed nextjs/dist/_next/static
+//go:embed nextjs/dist/_next
 //go:embed nextjs/dist/_next/static/chunks/pages/*.js
 //go:embed nextjs/dist/_next/static/*/*.js
 var nextFS embed.FS
