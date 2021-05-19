@@ -28,7 +28,7 @@ From the repository root directory, generate the static HTML export of the Next.
 app, and build the Go binary:
 
 ```sh
-$ cd client
+$ cd nextjs
 $ yarn install
 $ yarn run export
 $ cd ..
