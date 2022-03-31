@@ -11,8 +11,12 @@ through this project.
 
 ## Requirements
 
-- Go 1.16
+- Go 1.18
 - Yarn
+
+**Note:** While the `embed` package was added in Go 1.16, the `all:` prefix of
+the `embed` directive was added in 1.18. We use `all:` in this project because
+Next.js static exports contain files and direcories with underscore prefixes.
 
 ## Installing
 

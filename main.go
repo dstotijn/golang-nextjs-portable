@@ -8,10 +8,7 @@ import (
 	"runtime/pprof"
 )
 
-//go:embed nextjs/dist
-//go:embed nextjs/dist/_next
-//go:embed nextjs/dist/_next/static/chunks/pages/*.js
-//go:embed nextjs/dist/_next/static/*/*.js
+//go:embed all:nextjs/dist
 var nextFS embed.FS
 
 func main() {
