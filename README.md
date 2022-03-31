@@ -32,7 +32,7 @@ $ cd nextjs
 $ yarn install
 $ yarn run export
 $ cd ..
-$ go build main.go
+$ go build .
 ```
 
 Then run the binary:
